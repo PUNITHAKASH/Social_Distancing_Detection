@@ -21,6 +21,23 @@ The system follows a specific geometric workflow to monitor distancing:
 ## Setup and Running
 [cite_start]This project was developed for the NVIDIA Jetson platform using the jetson-inference library. [cite: 10, 11]
 
+
+## Results and Testing
+I tested the system under various conditions to ensure the Euclidean distance logic was accurate.
+
+### Social Distancing Violations
+Below are cases where the system correctly identified that people were closer than the 300px threshold:
+![Violation 1](violation1.jpeg)
+![Violation 2](violation2.jpeg)
+![Violation 3](violation3.jpeg)
+
+### Safe Distancing (All Clear)
+The system correctly remains in "All Clear" mode when proper distance is maintained:
+![Clear Case](clear.jpeg)
+
+
 To launch the detector:
 ```bash
 python3 pose_distance.py /dev/video0
+
+
