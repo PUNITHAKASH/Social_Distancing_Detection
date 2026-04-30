@@ -19,12 +19,12 @@ I tested the system under various conditions to ensure the distance logic was ac
 ### Social Distancing Violations
 The following cases show the system identifying that people were closer than the 300px threshold:
 ![Violation 1](images/violation1.jpeg)
-![Violation 2](images/violation2.jpeg)
-![Violation 3](images/images/violation3.jpeg)
+![Violation 2](images/violation%202.jpeg)
+![Violation 3](images/violation3.png)
 
 ### Safe Distancing (All Clear)
 The system correctly remains in "All Clear" mode when proper distance is maintained:
-![Clear Case](images/clear.jpeg)
+![Clear Case](images/clear1.png)
 
 ## Setup and Running
 [cite_start]Built for the NVIDIA Jetson platform using the jetson-inference library[cite: 10, 11].
